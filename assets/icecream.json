@@ -1,0 +1,105 @@
+{
+    "icecreams": [
+      {
+        "id": 1,
+        "category": "Classic",
+        "flavor": "Vanilla",
+        "description": "A timeless classic made with rich vanilla beans.",
+        "toppings": ["Choco Chips", "Sprinkles", "Cherry"],
+        "price": 3.50,
+        "image": "https://static.toiimg.com/thumb/63971154.cms?width=573&height=430",
+        "ingredients": ["Milk", "Cream", "Sugar", "Vanilla Beans"]
+      },
+      {
+        "id": 2,
+        "category": "Fruit",
+        "flavor": "Strawberry",
+        "description": "Fresh and fruity, made with real strawberries.",
+        "toppings": ["Whipped Cream", "Strawberry Syrup", "Mint"],
+        "price": 4.00,
+        "image": "https://www.allrecipes.com/thmb/pH8hoFfytcOT9XVK1DSmxv3L0OU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Strawberries"]
+      },
+      {
+        "id": 3,
+        "category": "Nutty",
+        "flavor": "Pistachio",
+        "description": "Creamy pistachio flavor with crunchy nuts.",
+        "toppings": ["Pistachios", "Almonds", "Honey Drizzle"],
+        "price": 4.50,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd644QuWvum3WHHBhl3SRMhg0sdiOol6Bp2w&s",
+        "ingredients": ["Milk", "Cream", "Sugar", "Pistachios"]
+      },
+      {
+        "id": 4,
+        "category": "Chocolate",
+        "flavor": "Chocolate Fudge",
+        "description": "Rich chocolate ice cream with fudge swirls.",
+        "toppings": ["Brownie Bits", "Hot Fudge", "Chocolate Shavings"],
+        "price": 5.00,
+        "image": "https://static.onecms.io/wp-content/uploads/sites/19/2006/06/20/ice-cream-ck-1206175-x.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Cocoa Powder", "Fudge"]
+      },
+      {
+        "id": 5,
+        "category": "Exotic",
+        "flavor": "Mango",
+        "description": "Tropical mango flavor made with real mangoes.",
+        "toppings": ["Coconut Flakes", "Mango Slices", "Mint"],
+        "price": 4.75,
+        "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/mango-ice-cream-blog.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Mango Puree"]
+      },
+      {
+        "id": 6,
+        "category": "Classic",
+        "flavor": "Chocolate Chip",
+        "description": "Creamy vanilla ice cream with chocolate chips.",
+        "toppings": ["Choco Chips", "Caramel Drizzle", "Walnuts"],
+        "price": 4.25,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DNxZE_X_8Uq-WEg-VI36_8xS26SnwqUOvg&s",
+        "ingredients": ["Milk", "Cream", "Sugar", "Chocolate Chips"]
+      },
+      {
+        "id": 7,
+        "category": "Gourmet",
+        "flavor": "Salted Caramel",
+        "description": "Decadent caramel ice cream with a touch of sea salt.",
+        "toppings": ["Caramel Sauce", "Sea Salt", "Pretzels"],
+        "price": 5.50,
+        "image": "https://www.thespruceeats.com/thmb/jZmYRDpWby4VM4r2w5Cah1Vth_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SaltedCaramelIceCreamHERO-9e49945bc9fb4afca856e37f5b1bbbe5.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Caramel", "Sea Salt"]
+      },
+      {
+        "id": 8,
+        "category": "Classic",
+        "flavor": "Cookies and Cream",
+        "description": "Vanilla ice cream with chunks of chocolate cookies.",
+        "toppings": ["Cookie Crumbs", "Whipped Cream", "Chocolate Sauce"],
+        "price": 4.75,
+        "image": "https://www.kingarthurbaking.com/sites/default/files/2022-05/cookies-and-cream-ice-cream_0422.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Cookies"]
+      },
+      {
+        "id": 9,
+        "category": "Fruit",
+        "flavor": "Lemon Sorbet",
+        "description": "Refreshing lemon sorbet, perfect for a hot day.",
+        "toppings": ["Lemon Zest", "Mint Leaves", "Berry Compote"],
+        "price": 3.75,
+        "image": "https://www.mybakingaddiction.com/wp-content/uploads/2009/06/close-up-lemon-sorbet-hero.jpg",
+        "ingredients": ["Lemon Juice", "Sugar", "Water", "Lemon Zest"]
+      },
+      {
+        "id": 10,
+        "category": "Gourmet",
+        "flavor": "Matcha Green Tea",
+        "description": "Creamy ice cream infused with premium matcha green tea.",
+        "toppings": ["Matcha Powder", "Red Beans", "Mochi"],
+        "price": 6.00,
+        "image": "https://www.thespruceeats.com/thmb/uXJIpnsD8coT0fLfdiO0lqsDe7I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-tea-matcha-ice-cream-2031118-hero-01-14e95fdc74154590b112b62048ba8f67.jpg",
+        "ingredients": ["Milk", "Cream", "Sugar", "Matcha Green Tea"]
+      }
+    ]
+  }
+  
