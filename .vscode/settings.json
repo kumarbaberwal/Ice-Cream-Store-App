@@ -9,5 +9,7 @@
         "source.sortMembers": "always",
         "source.unusedImports": "always"
     },
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true
 }

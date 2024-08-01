@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:icecreamlovers/views/icecream_view.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -17,7 +18,9 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      body: const IcecreamView(),
       bottomNavigationBar: NavigationBar(
+        selectedIndex: 0,
         destinations: const [
           NavigationDestination(
             icon: Icon(Icons.icecream),
