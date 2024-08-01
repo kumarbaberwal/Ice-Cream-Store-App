@@ -29,7 +29,7 @@ class Icecreams extends Product {
   String? flavor;
   String? description;
   List<String>? toppings;
-  double? price;
+  int? price;
   String? image;
   List<String>? ingredients;
 

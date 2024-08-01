@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:icecreamlovers/models/app_state_model.dart';
+import 'package:icecreamlovers/widgets/product_item.dart';
 import 'package:provider/provider.dart';
 
 class IcecreamView extends StatelessWidget {
@@ -9,9 +10,10 @@ class IcecreamView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.amber.shade300,
         title: const Text(
-          "Icecream",
+          "Ice Cream",
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
@@ -24,16 +26,7 @@ class IcecreamView extends StatelessWidget {
           return ListView.builder(
             itemCount: products.length,
             itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(products[index].flavor!),
-                subtitle: Text(products[index].price.toString()),
-                trailing: IconButton(
-                  onPressed: () {
-                    value.addProductToCart(products[index].id!);
-                  },
-                  icon: const Icon(Icons.add_shopping_cart),
-                ),
-              );
+              return ProductItem(icecream: products[index]);
             },
           );
         },

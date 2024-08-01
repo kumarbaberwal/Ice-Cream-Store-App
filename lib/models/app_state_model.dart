@@ -56,7 +56,11 @@ class AppStateModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> loadProducts() async {
+  List<Icecreams> getProducts() {
+    return _availableProducts;
+  }
+
+  Future<dynamic> loadProducts() async {
     _availableProducts = await ProductRepo.getIceCreams();
     notifyListeners();
   }
@@ -75,9 +79,5 @@ class AppStateModel extends ChangeNotifier {
         .where((product) =>
             product.flavor!.toLowerCase().contains(query.toLowerCase()))
         .toList();
-  }
-
-  List<Icecreams> getProducts(){
-    return _availableProducts;
   }
 }

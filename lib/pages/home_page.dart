@@ -7,17 +7,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        backgroundColor: Colors.amber,
-        title: const Text(
-          "Ice Cream Lovers",
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 24,
-          ),
-        ),
-      ),
+      // appBar: AppBar(
+      //   centerTitle: true,
+      //   backgroundColor: Colors.amber,
+      //   title: const Text(
+      //     "Ice Cream Lovers",
+      //     style: TextStyle(
+      //       fontWeight: FontWeight.bold,
+      //       fontSize: 24,
+      //     ),
+      //   ),
+      // ),
       body: const IcecreamView(),
       bottomNavigationBar: NavigationBar(
         selectedIndex: 0,

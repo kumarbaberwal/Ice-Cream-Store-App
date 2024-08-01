@@ -4,7 +4,7 @@ import 'package:icecreamlovers/apps/my_app.dart';
 import 'package:icecreamlovers/models/app_state_model.dart';
 import 'package:provider/provider.dart';
 
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   SystemChrome.setPreferredOrientations([

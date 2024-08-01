@@ -25,7 +25,8 @@ class ProductItem extends StatelessWidget {
       ),
       trailing: IconButton(
         onPressed: () {
-          Provider.of<AppStateModel>(context, listen: false).addProductToCart(icecream.id!);
+          Provider.of<AppStateModel>(context, listen: false)
+              .addProductToCart(icecream.id!);
         },
         icon: const Icon(Icons.add_shopping_cart),
       ),
